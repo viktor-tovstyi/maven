@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Feb 08 06:43:48 GMT 2021
+anteater-web-1.2.0-SNAPSHOT.war>=
+anteater-web-1.2.0-SNAPSHOT-sources.jar>=
+anteater-web-1.2.0-SNAPSHOT.pom>=
