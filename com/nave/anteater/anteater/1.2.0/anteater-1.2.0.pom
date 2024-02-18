@@ -10,7 +10,6 @@
 
 	<properties>
 		<javaVersion>1.8</javaVersion>
-		<!-- github server corresponds to entry in ~/.m2/settings.xml -->
 		<github.global.server>github</github.global.server>
 		<ae.maven.repo.dir>${env.MAVEN_REPO_HUB_DIR}</ae.maven.repo.dir>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,12 +17,13 @@
 
 	<modules>
 		<module>anteater-app</module>
-		<module>ae-plugins</module>
 		<module>anteater-desktop</module>
-<!--	<module>anteater-web</module>-->
+		<module>anteater-web</module>
 		<module>ae-maven-plugin</module>
-		<module>atg-ae-plugins</module>
-		<module>aws-ae-plugins</module>
+		<module>web-ae-plugin</module>
+		<module>atg-ae-plugin</module>
+		<module>aws-ae-plugin</module>
+		<module>sql-ae-plugin</module>
 	</modules>
 
 	<build>
@@ -75,10 +75,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>local.repo</id>
-			<layout>default</layout>
-			<name>Local Repository</name>
-			<url>file://${ae.maven.repo.dir}</url>
+			<id>internal.repo</id>
+			<name>Temporary Staging Repository</name>
+			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
 	</distributionManagement>
 
