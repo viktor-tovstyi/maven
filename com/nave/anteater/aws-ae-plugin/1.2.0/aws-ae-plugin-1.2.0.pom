@@ -27,7 +27,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.nave.anteater</groupId>
-			<artifactId>anteater-app</artifactId>
+			<artifactId>anteater-cli</artifactId>
 			<version>1.2.0</version>
 			<scope>provided</scope>
 		</dependency>

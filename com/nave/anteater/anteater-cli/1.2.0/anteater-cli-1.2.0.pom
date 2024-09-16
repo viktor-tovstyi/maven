@@ -9,7 +9,7 @@
 		<version>1.2.0</version>
 	</parent>
 
-	<artifactId>anteater-app</artifactId>
+	<artifactId>anteater-cli</artifactId>
 
 	<dependencies>
 		<dependency>

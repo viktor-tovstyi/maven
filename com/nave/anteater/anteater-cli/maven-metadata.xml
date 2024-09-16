@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.nave.anteater</groupId>
-  <artifactId>anteater-app</artifactId>
+  <artifactId>anteater-cli</artifactId>
   <versioning>
     <release>1.2.0</release>
     <versions>
       <version>1.2.0</version>
     </versions>
-    <lastUpdated>20240915095132</lastUpdated>
+    <lastUpdated>20240916082925</lastUpdated>
   </versioning>
 </metadata>

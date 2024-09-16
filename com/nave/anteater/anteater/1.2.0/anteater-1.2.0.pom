@@ -16,7 +16,7 @@
 	</properties>
 
 	<modules>
-		<module>anteater-app</module>
+		<module>anteater-cli</module>
 		<module>anteater-desktop</module>
 		<module>anteater-web</module>
 		<module>ae-maven-plugin</module>
