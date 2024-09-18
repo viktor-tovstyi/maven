@@ -15,16 +15,9 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.nave.anteater</groupId>
-			<artifactId>anteater-cli</artifactId>
-			<version>1.2.0</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.nave.anteater</groupId>
 			<artifactId>anteater-desktop</artifactId>
 			<version>1.2.0</version>
 			<scope>provided</scope>
-			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>com.oracle.database.jdbc</groupId>
